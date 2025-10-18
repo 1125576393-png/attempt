@@ -50,7 +50,6 @@ if base64_image:
         unsafe_allow_html=True
     )
     st.caption("八方来财")
-    st.success("✅ 图片加载成功！")
 else:
     # 备用方案：尝试直接显示
     st.warning("⚠️ 使用备用方案加载图片...")
